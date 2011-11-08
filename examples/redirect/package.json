@@ -1,0 +1,8 @@
+{
+  "name": "connect-swd-examples-redirect",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 0.0.0",
+    "connect-swd": ">= 0.0.0"
+  }
+}
