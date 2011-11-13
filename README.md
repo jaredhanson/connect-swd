@@ -3,6 +3,11 @@
 Simple Web Discovery (SWD) middleware middleware for [Connect](http://senchalabs.github.com/connect/)
 and [Express](http://expressjs.com/).
 
+Simple Web Discovery is mechanism to discover the location of a given type of
+service for a given entity on the Internet.  For example, the location of a
+person's address book or calendar can be found using their email address or
+website as an identifier.
+
 ## Installation
 
     $ npm install connect-swd
