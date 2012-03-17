@@ -2,10 +2,13 @@
   "name": "connect-swd",
   "version": "0.1.0",
   "description": "Simple Web Discovery (SWD) middleware for Connect.",
-  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaredhanson/connect-swd.git"
+    "url": "git://github.com/jaredhanson/connect-swd.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/connect-swd/issues"
   },
   "main": "./lib",
   "dependencies": {
