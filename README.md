@@ -39,11 +39,6 @@ SWD-compliant clients to the location of the full SWD server.
 
     app.get('/.well-known/simple-web-discovery', swd.redirect('https://swd.example.com/swd_server'));
 
-#### Examples
-
-For a complete, working example, refer to the [discovery example](https://github.com/jaredhanson/connect-swd/blob/master/examples/discovery/app.js)
-and [redirect example](https://github.com/jaredhanson/connect-swd/blob/master/examples/redirect/app.js).
-
 ## Implementation
 
 This module is implemented based on [Simple Web Discovery (SWD)](http://tools.ietf.org/html/draft-jones-simple-web-discovery-01),
@@ -51,6 +46,18 @@ Draft 01.  Implementers are encouraged to track the progress of this
 specification and update update their implementations as necessary.
 Furthermore, the implications of relying on a non-final draft specification
 should be understood prior to deployment.
+
+## Examples
+
+For a complete, working example, refer to the [discovery example](https://github.com/jaredhanson/connect-swd/blob/master/examples/discovery/app.js)
+and [redirect example](https://github.com/jaredhanson/connect-swd/blob/master/examples/redirect/app.js).
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/connect-swd.png)](http://travis-ci.org/jaredhanson/connect-swd)
 
 ## Credits
 
